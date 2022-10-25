@@ -11,4 +11,6 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    testImplementation(kotlin("test"))
+    testImplementation("org.jetbrains.kotlinx:lincheck:2.15")
 }
