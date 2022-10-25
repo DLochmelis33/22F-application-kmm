@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("org.jetbrains.kotlinx:atomicfu:0.18.5")
     testImplementation(kotlin("test"))
     testImplementation("org.jetbrains.kotlinx:lincheck:2.15")
 }
